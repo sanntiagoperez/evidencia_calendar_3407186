@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Document</title>
 </head>
 <body>
-    <!-- menu responsive flex -->
+    <!-- menu responsive flex-->
     <div class="main-header">
         <div class="main-header__container">
-            <!-- logo --> 
+            <!-- logo -->
             <div class="main-header__logo">
-                Calendario de eventos
+                calendario de ventos
             </div>
-            <!-- menu hamburguesa: toggle menu: se muestra a breakpoint <= 500px -->
+            <!-- menu hamburguesa: tpggle menu: se muestra den breakpint <=500px -->  
             <button class="main-header__toggle" id="menu-toggle">
                 <div class="main-header__bar"></div>
                 <div class="main-header__bar"></div>
                 <div class="main-header__bar"></div>
             </button>
-            <!--menu principal: se muestra a breakpoint < 500px-->
+            <!-- menu principal: se muestra en breakpoint > 50px -->
             <div class="main-nav" id="main-nav">
                 <ul class="main-nav__list">
                     <li class="main-nav__item">
-                        <a href="" class="main-nav__link">
-                            Buscar 🔎
+                        <a href="#" class="main-nav__link">
+                            buscar
                         </a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="" class="main-nav__link">
-                            Ayuda ❓
+                        <a href="#" class="main-nav__link">
+                            ayuda
                         </a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="" class="main-nav__link">
-                            Configuracion ⚙️
+                        <a href="#" class="main-nav__link">
+                            configuracion
                         </a>
                     </li>
                 </ul>
@@ -46,86 +46,185 @@
 
 
 
-<!-- calendar -->
+    <!-- calendar-->
     <div class="container">
         <div class="month">
-            <h2 class="month__name">
-                June
+            <h2 class="month_name">
+                june
             </h2>
         </div>
         <div class="days">
-            <div class="days__item">Mon</div>
-            <div class="days__item">Tue</div>
-            <div class="days__item">Wed</div>
-            <div class="days__item">Thu</div>
-            <div class="days__item">Fri</div>
-            <div class="days__item">Sat</div>
-            <div class="days__item">Sun</div>
+            <div class="days__item">mon</div>
+            <div class="days__item">tue</div>
+            <div class="days__item">wed</div>
+            <div class="days__item">thu</div>
+            <div class="days__item">fri</div>
+            <div class="days__item">sat</div>
+            <div class="days__item">sun</div>
         </div>
         <div class="schedule">
-            <div class="schedule__day">
-                1
-                <div class="titulo">Dia del Trabajo</div>
-                <div class="descripcion">Redir homenaje a los trabajadores</div>
+            <div class="schedule__day">1
+                <div class="evento">
+                    <button class="evento-btn" style="background:#040474;">
+                        👦 Diá Internacional del Niño
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>👦 Diá Internacional del Niño</h4>
+                        <p><strong>Nombre:</strong> Día del Niño</p>
+                        <p><strong>Descripción:</strong> Conmemoraciona los niños y a la infancia.</p>
+                        <img src="img/niño.png" alt="Día_del_Niño" class="evento-img">
+                    </div>
+                </div>
             </div>
             <div class="schedule__day">2</div>
-            <div class="schedule__day">3</div>
+            <div class="schedule__day">3
+            </div>
             <div class="schedule__day">4</div>
-            <div class="schedule__day">5</div>
+            <div class="schedule__day">5
+                <div class="evento">
+                    <button class="evento-btn" style="background:#08600c;">
+                        🌳 Día Mundial del Medio Ambiente
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>🌳 Día Mundial del Medio Ambiente</h4>
+                        <p><strong>Nombre:</strong> Día del Medio Ambiente</p>
+                        <p><strong>Descripción:</strong> Se conmemora la importancia de el medio ambiente.</p>
+                        <img src="img/medio.png" alt="Medio Ambiente" class="evento-img">
+                    </div>
+                </div>
+            </div>
             <div class="schedule__day">6</div>
             <div class="schedule__day">7</div>
-            <div class="schedule__day">8</div>
-            <div class="schedule__day">9</div>
-            <div class="schedule__day">
-                10
-                <div class="titulo">Dia del Padre</div>
-                <div class="descripcion">Rendir homenaje a los padres y figuras paternas</div>
+            <div class="schedule__day">8
+                <div class="evento">
+                    <button class="evento-btn" style="background: #550a01;">
+                        🧑‍🎓 Día del Estudiante Caído
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>🧑‍🎓 Día del Estudiante Caído</h4>
+                        <p><strong>Nombre:</strong> Día del Estudiante</p>
+                        <p><strong>Descripción:</strong> Honrar a los jóvenes que han perdido la vida en el marco de protestas sociales.</p>
+                        <img src="img/caido.png" alt="Estudiante Caido" class="evento-img">
+                    </div>
+                </div>
             </div>
+            <div class="schedule__day">9
+                <div class="evento">
+                    <button class="evento-btn" style="background: #550a01;">
+                        🧑‍🎓 Día del Estudiante Caído
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>🧑‍🎓 Día del Estudiante Caído</h4>
+                        <p><strong>Nombre:</strong> Día del Estudiante</p>
+                        <p><strong>Descripción:</strong> Honrar a los jóvenes que han perdido la vida en el marco de protestas sociales.</p>
+                        <img src="img/caido.png" alt="Estudiante Caido" class="evento-img">
+                    </div>
+                </div>
+            </div>
+            <div class="schedule__day">10</div>
             <div class="schedule__day">11</div>
             <div class="schedule__day">12</div>
             <div class="schedule__day">13</div>
-            <div class="schedule__day">
-                14
-                <div class="titulo">Culminación Segundo Trimetres</div>
-                <div class="descripcion">Fianaliza elsegundo trimestre para los esrudiantes de ADSO</div>
+            <div class="schedule__day">14
+                <div class="evento">
+                    <button class="evento-btn" style="background:#ff0000;">
+                        🩸Día Mundial del Donante de Sangre
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>🩸Día Mundial del Donante de Sangre</h4>
+                        <p><strong>Nombre:</strong> Día del Donante de Sangre</p>
+                        <p><strong>Descripción:</strong> Fue establecida oficialmente por la Organización Mundial de la Salud (OMS) para agradecer a los donantes voluntarios.</p>
+                        <img src="img/sangre.png" alt="Donante de Sangre" class="evento-img">
+                    </div>
+                </div>
             </div>
             <div class="schedule__day">15</div>
             <div class="schedule__day">16</div>
-            <div class="schedule__day">
-                17
-                <div class="titulo">Debut de Colombia</div>
-                <div class="descripcion">La selección Colombia juega su primer partido en el mundial</div>
-            </div>
+            <div class="schedule__day">17</div>
             <div class="schedule__day">18</div>
-            <div class="schedule__day">19</div>
+            <div class="schedule__day">19
+                <div class="evento">
+                    <button class="evento-btn" style="background:#6F4E37;">
+                        🛖 Día Mundial de los Refugiados
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>🛖 Día Mundial de los Refugiados</h4>
+                        <p><strong>Nombre:</strong> Día del Refugiado</p>
+                        <p><strong>Descripción:</strong> Honrar la fortaleza y resiliencia de las personas desplazadas de sus hogares.</p>
+                        <img src="img/refugiado.png" alt="Refugiados" class="evento-img">
+                    </div>
+                </div>
+            </div>
             <div class="schedule__day">20</div>
             <div class="schedule__day">21</div>
-            <div class="schedule__day">
-                22
-                <div class="titulo">Retorno a Transversales</div>
-                <div class="descripcion">Los estudiantes de ADSO vuelven a la UniGermana</div>
-            </div>
+            <div class="schedule__day">22</div>
             <div class="schedule__day">23</div>
-            <div class="schedule__day">24</div>
+            <div class="schedule__day">24
+                <div class="evento">
+                    <button class="evento-btn" style="background:#4ba1ed;">
+                        🕊️ Día de San Juan Bautista
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>🕊️ Día de San Juan Bautista</h4>
+                        <p><strong>Nombre:</strong> Día de San Juan Bautista</p>
+                        <p><strong>Descripción:</strong> Conmemora su nacimiento según la tradición católica.</p>
+                        <img src="img/bautista.png" alt="Bautista" class="evento-img">
+                    </div>
+                </div>
+            </div>
             <div class="schedule__day">25</div>
             <div class="schedule__day">26</div>
             <div class="schedule__day">27</div>
             <div class="schedule__day">28</div>
             <div class="schedule__day">29</div>
-            <div class="schedule__day">30</div>
+            <div class="schedule__day">30
+                <div class="evento">
+                    <button class="evento-btn" style="background:#0022ff;">
+                        🎂 Cumpleaños de Mamá
+                    </button>
+
+                    <div class="evento-info">
+                        <h4>🎂 Cumpleaños de Mamá</h4>
+                        <p><strong>Nombre:</strong> Cumpleaños de Mamá</p>
+                        <p><strong>Descripción:</strong> Reunión familiar para compartir el cumpleaños de Mamá.</p>
+                        <img src="img/mama.png" alt="Mamá" class="evento-img">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-<!-- script para controlar el link-->
+    <!-- script para controlar el link-->
     <script>
-        const menuToggle = document.getElementById('menu-toggle')
-        const mainNav = document.getElementById('main-nav')
+    const menuToggle = document.getElementById('menu-toggle');
+    const mainNav = document.getElementById('main-nav');
+    
+    /* añadir el evento click y su funcionalidad*/
 
-        /* añadir el evento click*/
-        menuToggle.addEventListener('click' , ()=>{
-            mainNav.classList.toggle('main-nav__open')
-        })
+    menuToggle.addEventListener('click', () => {
+        mainNav.classList.toggle('main-nav__open');
+    });
     </script>
 
+    <script>
+    const botonesEventos = document.querySelectorAll('.evento-btn');
+
+    botonesEventos.forEach(boton => {
+        boton.addEventListener('click', () => {
+
+            const info = boton.nextElementSibling;
+
+            info.classList.toggle('activo');
+        });
+    });
+    </script>
 </body>
 </html>
